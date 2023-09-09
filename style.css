@@ -1,0 +1,1194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+
+/* Header = navbar  */
+
+
+.header {
+    display: flex;
+    height: 60px;
+    width: 1280px;
+    background-color: black;
+    position: fixed;
+}
+
+/* Navbar Amazon image css */
+
+.box1 {
+    display: flex;
+    height: 40px;
+    width: 130px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.box1:hover {
+    display: flex;
+    border: 1px solid white;
+    height: 55px;
+    width: 130px;
+    cursor: pointer;
+}
+
+/* Navbar Address css */
+
+.box2 {
+    height: 40px;
+    width: 165px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-style: inherit;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.box2:hover {
+    border: 1px solid white;
+    height: 55px;
+    width: 165px;
+    cursor: pointer;
+}
+
+/* Navbar select tag in all css */
+
+.box3 {
+    height: 40px;
+    width: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border: none;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.box3:hover {
+    cursor: pointer;
+}
+
+/* Navbar select tag content css */
+
+.select {
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: -10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.select:hover {
+    background-color: rgb(169, 169, 169);
+    border: 2px solid rgb(255, 184, 52);
+
+}
+
+/* Navbar search box css */
+
+.box4 {
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.search_bar {
+    outline: 0;
+    width: 460px;
+}
+
+/* Navbar search icon div css */
+
+.box5 {
+    height: 40px;
+    width: 45px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    background-color: rgb(255, 178, 77);
+}
+
+.box5:hover {
+    height: 40px;
+    width: 45px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* Navbar Search icon css */
+
+.bi {
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+/* Navbar language div css */
+
+.box6 {
+    height: 50px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 4px;
+}
+
+.box6:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    height: 48px;
+    width: 60px;
+    margin-top: 7px;
+    padding-top: 14px;
+}
+
+.langauge {
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+/* Navbar language dropdown css */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+/* Navbar account & list css */
+
+.box7 {
+    height: 40px;
+    width: 130px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-style: inherit;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.box7:hover {
+    border: 1px solid white;
+    height: 55px;
+    width: 130px;
+    cursor: pointer;
+}
+
+
+/* Navbar Return & Order css */
+
+.box8 {
+    height: 40px;
+    width: 100px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-style: inherit;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.box8:hover {
+    border: 1px solid white;
+    height: 55px;
+    width: 98px;
+    cursor: pointer;
+}
+
+
+/* Navbar cart css */
+
+.box9 {
+    height: 40px;
+    width: 87px;
+    color: white;
+    padding-top: 6px;
+    padding-right: 10px;
+    font-style: inherit;
+    margin-top: 2px;
+    margin-left: -24px;
+    font-size: 18px;
+}
+
+.box9:hover {
+    border: 1px solid white;
+    height: 55px;
+    width: 90px;
+    cursor: pointer;
+}
+
+
+/* First row */
+
+
+.first {
+    display: flex;
+    height: 40px;
+    width: 1280px;
+    background-color: #181f20;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.box10 {
+    height: 40px;
+    width: 55px;
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 800;
+}
+
+.box10:hover {
+    border: 1px solid white;
+    height: 35px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.box11 {
+    height: 40px;
+    width: 125px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.box11:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 125px;
+    cursor: pointer;
+}
+
+.box12 {
+    height: 40px;
+    width: 45px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.box12:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.box13 {
+    height: 40px;
+    width: 90px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* margin-left: 10px; */
+    font-weight: 900;
+}
+
+.box13:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.box14 {
+    height: 40px;
+    width: 105px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 900;
+}
+
+.box14:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 105px;
+    cursor: pointer;
+}
+
+.box15 {
+    height: 40px;
+    width: 70px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 900;
+}
+
+.box15:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.box16 {
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.box16:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.box17 {
+    height: 40px;
+    width: 145px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.box17:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.box18 {
+    height: 40px;
+    width: 50px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 4px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.box18:hover {
+    border: 1px solid white;
+    height: 38px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.box19 {
+    height: 40px;
+    width: 330px;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 4px;
+    margin-left: 110px;
+    font-weight: 900;
+}
+
+.box19:hover {
+    border: 1px solid rgb(18, 169, 224);
+    height: 38px;
+    width: 330px;
+    cursor: pointer;
+}
+
+/* Second div css */
+
+.second {
+    display: flex;
+    margin-top: 40px;
+    margin-left: -1280px;
+    width: 1280px;
+}
+
+/* Third div css */
+
+.third {
+    display: grid;
+    height: 300px;
+    width: 1280px;
+    padding-top: 100px;
+    padding-left: 20px;
+    background-image: linear-gradient(rgb(213, 209, 244), rgb(215, 204, 237));
+    grid-template-rows: 213px;
+    grid-template-columns: 213px 213px 213px 213px;
+    grid-gap: 100px;
+    margin-left: -1280px;
+    margin-top: 500px;
+
+}
+
+.item {
+    height: 420px;
+    width: 290px;
+    background-color: white;
+    margin-left: 18px;
+    margin-top: -350px;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.clearence {
+    padding-top: 25px;
+}
+
+.Bluetooth {
+    padding-top: 25px;
+
+}
+
+.sale {
+    padding-top: 25px;
+}
+
+.cube1 {
+    padding-top: 25px;
+
+}
+
+.cube2 {
+    padding-top: 15px;
+
+}
+
+.cube3 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: -280px;
+}
+
+.cube4 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: -9px;
+}
+
+/* Forth div css */
+
+.fourth {
+    display: grid;
+    height: 400px;
+    width: 1280px;
+    padding-top: 100px;
+    padding-left: 20px;
+    background-image: linear-gradient(rgb(215, 204, 237), rgb(215, 204, 237));
+    grid-template-rows: 213px;
+    grid-template-columns: 213px 213px 213px 213px;
+    grid-gap: 100px;
+    margin-left: -20px;
+    margin-top: -113px;
+    /* box-sizing: border-box; */
+}
+
+.item1 {
+    height: 420px;
+    width: 290px;
+    background-color: white;
+    margin-left: 18px;
+    margin-top: -205px;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+/* item1 css  1-4 boxx */
+
+.boxx1 {
+    padding-top: 25px;
+}
+
+.boxx2 {
+    padding-top: 25px;
+}
+
+.boxx3 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: -290px;
+}
+
+.boxx4 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: 1px;
+}
+
+/* item1 css 5-8 boxx*/
+
+.boxx5 {
+    padding-top: 25px;
+
+}
+
+.boxx6 {
+    padding-top: 25px;
+}
+
+.boxx7 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: -290px;
+}
+
+.boxx8 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: 1px;
+}
+
+/* item1 css 9-12 boxx*/
+
+.boxx9 {
+    padding-top: 25px;
+}
+
+.boxx10 {
+    padding-top: 25px;
+}
+
+.boxx11 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: -290px;
+}
+
+.boxx12 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: 1px;
+}
+
+/* item1 css 13-16 boxx*/
+
+.boxx13 {
+    padding-top: 25px;
+}
+
+.boxx14 {
+    padding-top: 25px;
+}
+
+.boxx15 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: -290px;
+}
+
+.boxx16 {
+    padding-top: 25px;
+    margin-left: 134px;
+    margin-top: 1px;
+}
+
+/* Fifth div css */
+
+.fifth {
+    display: flex;
+    height: 400px;
+    width: 1280px;
+    padding-top: 100px;
+    padding-left: 10px;
+    background-image: linear-gradient(rgb(215, 204, 237), rgb(215, 204, 237));
+    margin-left: -20px;
+    margin-top: -13px;
+}
+
+.bodi {
+    height: 370px;
+    width: 1230px;
+    margin-top: -160px;
+    margin-left: 28px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: initial;
+}
+
+.parts {
+    display: flex;
+    padding-top: 140px;
+    padding-left: 10px;
+}
+
+.c {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(235, 239, 244);
+    padding-top: 18px;
+    padding-left: 20px;
+    /* margin-left: -1215px; */
+    margin-top: -120px;
+}
+
+.bx1 {
+    width: 98px;
+    height: 24px;
+    padding-left: 6px;
+    padding-top: 3px;
+    margin-top: 24px;
+    margin-left: -20px;
+    background-color: rgb(193, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+.bx1-1 {
+    color: brown;
+    padding-left: 84px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.bx1-2 {
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.d {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(235, 239, 244);
+    padding-top: 18px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: -120px;
+}
+
+.bx2 {
+    width: 98px;
+    height: 24px;
+    padding-left: 6px;
+    padding-top: 3px;
+    margin-top: 24px;
+    margin-left: -20px;
+    background-color: rgb(193, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+.bx2-1 {
+    color: brown;
+    padding-left: 84px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.bx2-2 {
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.e {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(235, 239, 244);
+    padding-top: 18px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: -120px;
+}
+
+.bx3 {
+    width: 98px;
+    height: 24px;
+    padding-left: 6px;
+    padding-top: 3px;
+    margin-top: 24px;
+    margin-left: -20px;
+    background-color: rgb(193, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+.bx3-1 {
+    color: brown;
+    padding-left: 84px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.bx3-2 {
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.F {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(235, 239, 244);
+    padding-top: 18px;
+    padding-left: 20px;
+    margin-top: -120px;
+    margin-left: 20px;
+}
+
+.bx4 {
+    width: 98px;
+    height: 24px;
+    padding-left: 6px;
+    padding-top: 3px;
+    margin-top: 24px;
+    margin-left: -20px;
+    background-color: rgb(193, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+.bx4-1 {
+    color: brown;
+    padding-left: 84px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.bx4-2 {
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.g {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(235, 239, 244);
+    padding-top: 18px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: -120px;
+}
+
+.bx5 {
+    width: 98px;
+    height: 24px;
+    padding-left: 6px;
+    padding-top: 3px;
+    margin-top: 24px;
+    margin-left: -20px;
+    background-color: rgb(193, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+.bx5-1 {
+    color: brown;
+    padding-left: 84px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.bx5-2 {
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+/* dress div css */
+
+
+.dress {
+    height: 370px;
+    width: 1280px;
+    margin-top: 222px;
+    margin-left: -58px;
+    background-image: linear-gradient(rgb(215, 204, 237), rgb(215, 204, 237));
+}
+
+.dressbox {
+    /* display: flex; */
+    height: 300px;
+    width: 1230px;
+    margin-top: -110px;
+    margin-left: 38px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dress1 {
+    /* margin-left: -1180px; */
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#dress2 {
+    padding-top: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+#dress3 {
+    padding-top: 20px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+#dress4 {
+    padding-top: 20px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+#dress5 {
+    padding-top: 20px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+#dress6 {
+    padding-left: 60px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#dress7 {
+    padding-left: 60px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.areoplane {
+    height: 400px;
+    width: 1280px;
+    margin-left: -58px;
+    background-image: linear-gradient(rgb(215, 204, 237), rgb(215, 204, 237));
+}
+
+.aerobox {
+    height: 380px;
+    width: 1230px;
+    margin-left: 38px;
+    margin-top: -40px;
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 38px;
+    cursor: pointer;
+}
+
+.music {
+    display: flex;
+    height: 400px;
+    width: 1280px;
+    margin-left: -58px;
+    background-image: linear-gradient(rgb(215, 204, 237), rgb(215, 204, 237));
+}
+
+.hometheater {
+    display: flex;
+    height: 280px;
+    width: 1230px;
+    margin-left: 38px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 35px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#ms1 {
+    padding-top: 60px;
+    margin-left: -420px;
+    cursor: pointer;
+}
+
+#ms2 {
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+#ms3 {
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+#ms4 {
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+#ms5 {
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+#ms6 {
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+#ms7 {
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.Funsihing {
+    display: flex;
+    height: 300px;
+    width: 1280px;
+    background-image: linear-gradient(rgb(215, 204, 237), rgb(215, 204, 237));
+    margin-left: -58px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mobiles {
+    height: 300px;
+    width: 1280px;
+    background-color: white;
+    margin-left: -58px;
+    padding-left: 50px;
+
+}
+
+.mobox {
+    padding-top: 20px;
+}
+
+#mbid1 {
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+#mbid {
+    margin-top: 40px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.btt {
+    height: 50px;
+    width: 1290px;
+    margin-left: -58px;
+    background-color: rgb(43, 55, 78);
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.a1 {
+    text-decoration: none;
+    color: white;
+}
+
+.btt:hover {
+    background-color: rgb(51, 63, 85);
+}
+
+.footer {
+    display: flex;
+    height: 390px;
+    width: 1290px;
+    margin-left: -58px;
+    background-color: rgb(21, 39, 56);
+    font-style: inherit;
+}
+
+.foo1 {
+    padding-left: 140px;
+    padding-top: 50px;
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+    float: left;
+}
+
+.foo2 {
+    padding-left: 140px;
+    padding-top: 50px;
+    font-size: 18px;
+    color: white;
+    line-height: 2;
+}
+
+.foo3 {
+    padding-left: 140px;
+    padding-top: 50px;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    float: right;
+}
+
+.foo4 {
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    float: right;
+}
+
+.fnt {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.fnt2 {
+    font-size: 14px;
+    font-weight: lighter;
+    list-style: none;
+    line-height: 2;
+}
+
+.footer1 {
+    height: 250px;
+    width: 1290px;
+    margin-left: -58px;
+    background-color: rgb(21, 39, 56);
+    font-style: inherit;
+    padding-left: 350px;
+    padding-top: 40px;
+}
+
+.lngbx{
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 4px;
+    color: rgb(219, 219, 219);
+    text-align: left;
+    padding-top: 5px;
+    margin-left: 250px;
+    margin-top: -45px;
+}
+
+.lngbx1{
+    width: 1050px;
+    padding-top: 50px;
+    margin-left: -350px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.footer2 {
+    display: flex;
+    height: 180px;
+    width: 1290px;
+    margin-left: -58px;
+    background-color: rgb(14, 26, 37);
+    font-style: normal;
+    color: rgb(153, 152, 152);
+    padding-left: 60px;
+    padding-top: 50px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.ftbx{
+    padding-left: 80px;
+}
+
+.end{
+    display: flex;
+    width: 1290px;
+    height: 80px;
+    background-color: rgb(14, 26, 37);
+    color: white;
+    font-size: 13px;
+    margin-left: -53px;
+    padding-top: 20px;
+    padding-left: 500px;
+}
+
